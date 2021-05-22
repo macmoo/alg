@@ -11,7 +11,7 @@ int main(void)
     else{
         *x = 57;
         printf("%d\n", *x);
-        free(x);
+        free(x); // 메모리해제
     }
     return 0;
 }
