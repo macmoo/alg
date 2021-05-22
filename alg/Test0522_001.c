@@ -12,6 +12,7 @@ int main(void)
         *x = 57;
         printf("%d\n", *x);
         free(x); // 메모리해제
+        printf("%d\n", *x);  // <- 에러안남(쓰레기값출력)
     }
     return 0;
 }
